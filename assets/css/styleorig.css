@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	/*kapag maliit ang img mo and 
+	di sya mag-ulit ulit.*/
+	color: #f2f2f2; /*off white*/
+	height: 100vh; /*100 vh ang height ng screen*/
+	font-family: 'Bitter', serif;
+}
+
+h1 {font-size: 50px;
+	background-color: #333; /*off black*/
+	text-transform: uppercase; /*everything will be uppercase*/
+	margin-bottom: 0;
+	letter-spacing: 3px;
+	font-family: 'Arimo', sans-serif;
+}	
+h2 {
+	text-transform: uppercase;
+	background-color: rgba(51, 51, 51, 0.8);
+	letter-spacing: 5px;
+	color:yellow;
+	font-family: 'Roboto', sans-serif;
+}
+
+#me{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%; /*to put circular border*/
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 50px;
+}
+.bio {
+	width: 100%;
+	font-size:18px;
+	line-height: 1.5;
+	background-color: rgba(51, 51, 51, 0.8);
+	
+	/*pwedeng gamitin ito instead na yung nasa taas*/
+	/*kaso kapag ito ginamit pati text makakasama sa opacity change*/
+	/*background-color: #333;*/
+	/*opacity: 0.5;*/
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	/*before using margin: 0 auto, set muna yung width otherwise di sya magwowork*/
+	text-align: center;
+}
+/*using .. go out of folder - nasa ibang folder and css file and images
+so kailangan nyang lumabas ng folder and go to folder kung
+nasaan yung bg image*/
+
+/*# = pound sign = target id*/
+/*. = dot sign = target class*/
